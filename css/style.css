@@ -1,0 +1,113 @@
+/* GLOBAL */
+:root {
+    --primary-color: #189A46;
+    --secondary-color: #f53626;
+    --font-color: #696969;
+    --bg-color: #fff;
+    --heading-color: #000c04;
+    --border-radius: 10px;
+    --border-color: #ddd;
+    --border-light: #f0f3f0;
+    --nav-color: #292922;
+    --dropdown-color: #fff;
+    --bg-light: rgba(147, 107, 232, 0.05);
+    --iframe-filter: grayscale(0%);
+    --widget-bg: #3f3a64;
+
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    color: var(--font-color);
+    background: var(--bg-color);
+}
+
+/* END GLOBAL */
+
+/* HEADER */
+header {
+    position: absolute;
+    top: 40px;
+    z-index: 4;
+    background-color: white;
+    width: 100vw;
+    padding: 20px;
+}
+
+header nav>a {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+
+}
+
+header nav button {
+    background-color: var(--primary-color) !important;
+}
+
+header nav .header-end i {
+    width: 50px;
+    height: 50px;
+}
+
+header nav .navbar-collapse .navbar-nav a {
+    color: var(--font-color) !important;
+    font-weight: 500;
+}
+
+/* END HEADER */
+/* SWIPERJS */
+.swiper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.swiper .box-wrap {
+    background-color: red;
+    position: absolute;
+    top: 200px;
+}
+.swiper .swiper-slide h5 {
+    font-size: 3rem;
+    color: var(--bg-color);
+}
+.swiper .swiper-wrapper .background1 {
+    background-image: url(../image/banner1.jpg);
+}
+
+.swiper .swiper-wrapper .background2 {
+    background-image: url(../image/banner2.jpg);
+}
+
+.swiper .swiper-wrapper .background3 {
+    background-image: url(../image/banner3.jpg);
+}
+
+.swiper .swiper-wrapper .background4 {
+    background-image: url(../image/banner4.jpg);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--bg-color) !important;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet:hover {
+    background-color: var(--primary-color) !important;
+    width: 20px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--primary-color) !important;
+    width: 20px;
+    height: 8px;
+    border-radius: 4px;
+}
+
+
+/* END SWIPERJS */
